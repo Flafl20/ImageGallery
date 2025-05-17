@@ -1,6 +1,6 @@
 export default function Card({ image }) {
   return (
-    <div className="max-w-sm rounded overflow-hidden shadow-lg">
+    <div className="max-w-sm max-md:max-w-xl rounded overflow-hidden shadow-lg">
       <img src={image.webformatURL} className="w-full" alt="" />
       <div className="px-6 py-4">
         <p className="font-bold text-purple-500 text-xl mb-2">
